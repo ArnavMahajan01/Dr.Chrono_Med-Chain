@@ -169,22 +169,22 @@
 
 }
 
-#body-scan{
+/* #body-scan{
     width: 650px;
     height: 1100px;
     border-radius: 30px;
     background-color: #e5ecf1;
     position: absolute;
     margin-top: 450px;
-    margin-left: 50px;
-}
+    margin-left: 650px;
+} */
 
 #body{
     position: absolute;
-    height: 900px;
-    width: 1550px;
-    /* margin-left: 100px;
-    margin-right: 1300px; */
+    height: 1100px;
+    width: 1950px;
+    margin-top: 550px;
+
 }
 
 #heart-scan {
@@ -193,8 +193,8 @@
     border-radius: 30px;
     background-color: #e5ecf1;
     position: absolute;
-    margin-top: 460px;
-    margin-left: 750px;
+    margin-top: 450px;
+    margin-left: 50px;
 }
 
 #heart{
@@ -212,7 +212,7 @@
     background-color: #e5ecf1;
     position: absolute;
     margin-top: 1020px;
-    margin-left: 750px;
+    margin-left: 50px;
 }
 
 #kidney{
