@@ -1,0 +1,59 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hi", "Is anyone there?"],
+     "responses": ["Hello", "Good to see you ", "Hi there, how can I help?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What you can do?", "What help can you provide?", "How you can be helpful?", "What support is offered"],
+     "responses": ["I can guide you through scheduling and give you preliminary medical help", "I offer support for Hospitals, Pharmacies, giving you a prelimnary diagnosis and scheduling"],
+     "context": [""]
+    },
+    {"tag": "have_symptoms",
+        "patterns": ["I'm ill", "I am not feeling good", "I am unwell"],
+        "responses": ["Please list out the symptoms you have", "What symptoms do you have?"],
+        "context": [""]
+    },
+    {"tag": "disease_symptoms",
+        "patterns": ["itching","skin rash","nodal skin eruptions","continuous sneezing","shivering","chills","joint pain","stomach pain","acidity","ulcers on tongue","muscle wasting","vomiting","burning micturition","spotting urination","fatigue","weight gain","anxiety","cold hands and feets","mood swings","weight loss","restlessness","lethargy","patches in throat","irregular sugar level","cough","high fever","sunken eyes","breathlessness","sweating","dehydration","indigestion","headache","yellowish skin","dark urine","nausea","loss of appetite","pain behind the eyes","back pain","constipation","abdominal pain","diarrhoea","mild fever","yellow urine","yellowing of eyes","acute liver failure","fluid overload","swelling of stomach","swelled lymph nodes","malaise","blurred and distorted vision","phlegm","throat irritation","redness of eyes","sinus pressure","runny nose","congestion","chest pain","weakness in limbs","fast heart rate","pain during bowel movements","pain in anal region","bloody stool","irritation in anus","neck pain","dizziness","cramps","bruising","obesity","swollen legs","swollen blood vessels","puffy face and eyes","enlarged thyroid","brittle nails","swollen extremeties","excessive hunger","extra marital contacts","drying and tingling lips","slurred speech","knee pain","hip joint pain","muscle weakness","stiff neck","swelling joints","movement stiffness","spinning movements","loss of balance","unsteadiness","weakness of one body side","loss of smell","bladder discomfort","foul smell of urine","continuous feel of urine","passage of gases","internal itching","toxic look (typhos)","depression","irritability","muscle_pain","altered sensorium","red spots over body","belly pain","abnormal menstruation","dischromic patches","watering from eyes","increased appetite","polyuria","family history","mucoid sputum","rusty sputum","lack of concentration","visual disturbances","receiving blood transfusion","receiving unsterile injections","coma","stomach bleeding","distention of abdomen","history of alcohol consumption","fluid overload","blood in sputum","prominent veins on calf","palpitations","painful walking","pus filled pimples","blackheads","scurring","skin peeling","silver like dusting","small dents in nails","inflammatory nails","blister","red sore around nose","yellow crust ooze"],
+        "responses": ["Ok, running diagnostic"],
+        "context": [""]
+    },
+    {"tag": "bot_name",
+        "patterns": ["What's your name?", "name?", "How are you called?", "What can I call you?"],
+        "responses": ["My name is medi-chan", "You can call me medi-chan"],
+        "context": [""]
+    },
+    {"tag": "scheduling_help",
+        "patterns": ["Please schedule a consultation for me", "schedule an appointment for me", "I want to see a doctor", "Which doctors are available for a meeting?"],
+        "responses": ["You can meet with Dr. Roy(General Practitioner) or Dr. Anita(General Practitioner)", "I can schedule an appointement with Dr. Roy(General Practitioner) or Dr. Anita(General Practitioner)"],
+        "context": [""]
+    },
+    {"tag": "schedule_meeting",
+        "patterns": ["Ok, please make the appointment with Dr. Anita", "Schedule a meeting with Dr. Roy", "book a meeting with Dr. Anita"],
+        "responses": ["Ok, making the appointment", "scheduling the meeting"],
+        "context": [""]
+    },
+    {"tag": "medchain",
+        "patterns": ["Tell me about med-chain", "What is med-chain about?", "What does your company do?", "What is your objective?"],
+        "responses": ["Med-Chain helps ", "Our objective is to "],
+        "context": [""]
+    }
+    
+]
+}
