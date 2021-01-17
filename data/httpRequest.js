@@ -22,7 +22,7 @@ $(document).ready(function(){
     chatList.appendChild(para);
     $.ajax({
         type:"GET",
-        url:"/data/handleMessage.php/?mssg="+userMessage,
+        url:"Dr.Chrono_Med-Chain/data/handleMessage.php/?mssg="+userMessage,
         success: function(response){
             var chatList = document.getElementById("chatList");
             var para2 = document.createElement("li");
